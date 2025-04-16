@@ -1,9 +1,8 @@
-
 body{ 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(224, 220, 213);
-  margin: 0;               /* 💥 quita el margen que deja espacio en los bordes */
-  padding: 0;              /* 💥 quita el padding que estaba empujando todo */
+  margin: 0; /* saca el margen que deja espacio en los bordes */
+  padding: 0; /* saca el padding que estaba empujando todo */
   width: 100%;
 }
 
@@ -103,8 +102,8 @@ li {
   background-color:  rosybrown;
   padding: 40px 0 40px;
   border-radius: 10px;
-  max-width: 1299px;   /*  achica el bloque */
-  margin: 0 auto 30px;      /*  lo centra */
+  max-width: 1299px; /*  achica el bloque */
+  margin: 0 auto 30px; /*  lo centra */
 }
 
 .galeria img{
@@ -160,10 +159,10 @@ li {
   padding: 40px;
   border-radius: 100px;
   justify-content: center;
-  margin: 60px 500px;             /* centra horizontalmente */
+  margin: 60px 500px; /* centra horizontalmente */
   display: flex;                 
-  flex-direction: column;        /* mantiene los elementos en columna */
-  align-items: center;           /* centra el contenido dentro del div */
+  flex-direction: column; /* mantiene los elementos en columna */
+  align-items: center; /* centra el contenido dentro del div */
 }
 
 input[type=text] {
