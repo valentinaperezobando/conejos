@@ -1,0 +1,215 @@
+
+body{ 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(224, 220, 213);
+  margin: 0;               /* 💥 quita el margen que deja espacio en los bordes */
+  padding: 0;              /* 💥 quita el padding que estaba empujando todo */
+  width: 100%;
+}
+
+header{
+  font-size: 20px;
+  text-align: center;
+  padding: 1px;
+}
+
+h2{
+  text-align: center;
+  font-size: 25px;
+  padding: 16px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: rosybrown;
+}
+
+nav a {
+  display: block;
+  background-color: rosybrown;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  float: left;
+  padding: 20px 20px;
+}
+
+nav a:hover { /* cuando pasa el cursos encima de los link*/
+  background-color:rgb(179, 128, 128);
+  color: black;
+}
+
+p {
+  text-align: left;
+  line-height: 1.7;
+  margin: 20px auto; 
+  width: 60%;
+}
+
+ul {
+  margin: 20px auto;
+  padding-left: 40px;
+  width: 60%;
+  list-style-type: disc;
+}
+
+ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.img-parrafo1 {
+  float: right;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.habitat-natural {
+  float: right;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.dientes{
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 0 80px;
+  border-radius: 20px;
+}
+
+.conejo-banner img {
+  width: 100%;
+  height: 300px;
+  object-position: 50% 50%;
+  object-fit: cover;     
+  display: block;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color:  rosybrown;
+  padding: 40px 0 40px;
+  border-radius: 10px;
+  max-width: 1299px;   /*  achica el bloque */
+  margin: 0 auto 30px;      /*  lo centra */
+}
+
+.galeria img{
+  width: 100%;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.habitat{
+  float: right;
+  width: 320px;
+  height: 200px;
+  margin: 10px 0 10px 20px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.comiendo-lechuga {
+  float: right;
+  width: 220px; /* Lo usé para encuadrar la foto*/
+  height: 220px;
+  margin: 10px 90px 10px 20px;
+  object-fit: cover; /*  recorto */
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.noticia{
+  float: right;
+  width: 220px;
+  height: 220px;
+  margin: 10px 90px 10px 20px;
+  object-fit: cover; /* recorta sin deformar */
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tabla-detalle {
+  width: 30%;
+  margin: 20px auto 50px auto;
+}
+
+.formulario-contacto{
+  background-color:  rosybrown;
+  padding: 40px;
+  border-radius: 100px;
+  justify-content: center;
+  margin: 60px 500px;             /* centra horizontalmente */
+  display: flex;                 
+  flex-direction: column;        /* mantiene los elementos en columna */
+  align-items: center;           /* centra el contenido dentro del div */
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0; /* espacio de la caja para que no toque nada*/
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+input[type=date] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #b0f0e7;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer{
+  background-color: rosybrown;
+  padding: 10px;
+  width: 100%;
+}
+
+footer p{
+  text-align: center;
+  color: azure;
+}
